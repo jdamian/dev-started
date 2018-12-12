@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build": "webpack --watch",
+    "build-babel": "babel src -d babel --watch"
+  },
+  "dependencies": {
+    "enhanced-resolve": "^4.1.0",
+    "jsesc": "^2.5.2",
+    "npm": "^6.5.0"
+  }
+}
