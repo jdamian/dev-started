@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SOP demo</title>
+</head>
+
+<body>
+    <iframe src="http://example.com" name="demo"></iframe>
+    <script>
+        document.getElementsByName('demo')[0].onload = function () {
+            try {
+                console(frames[0].hostname)
+            } catch (e) {
+                console.log(e);
+            }
+        }
+    </script>
+</body>
+
+</html>
