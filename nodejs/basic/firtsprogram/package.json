@@ -1,0 +1,14 @@
+{
+  "name": "firtsprogram",
+  "version": "1.0.0",
+  "description": "firts program",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Juan Damian <jcarlosdamian@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "robotjs": "^0.6.0"
+  }
+}
