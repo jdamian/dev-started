@@ -1,0 +1,33 @@
+body{
+    background-color:beige;
+}
+.contenedor{
+    background-color: white;
+    border: 1px solid chocolate;
+    border-radius: 2px;
+}
+.header{
+    padding: 10px;
+    text-align: center;
+}
+.main{
+    padding: 10px;
+    border-top: solid 1px chocolate;
+}
+.footer{
+    padding: 10px;
+    border-top: solid 1px chocolate;
+
+}
+.bt_aceptar{
+    background-color: cornflowerblue;
+    border: 0px;
+    padding: 5px;
+    color: aliceblue;
+}
+.bt_cancelar{
+    background-color: darksalmon;
+    border: 0px;
+    padding: 5px;
+    color: aliceblue;
+}
