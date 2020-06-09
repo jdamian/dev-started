@@ -1,0 +1,17 @@
+body{
+    background-color: aliceblue;
+}
+.grid{
+    display: grid;
+    grid-template-areas: "header header"
+                         "content sidebar"
+                        "footer footer";
+    grid-template-columns: 1fr 200px;
+    grid-template-rows: 150px 1fr 100px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}

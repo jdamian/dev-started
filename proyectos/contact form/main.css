@@ -1,0 +1,110 @@
+body{
+    background-color: aliceblue;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+li:hover{
+    background-color: rgba(0,0,0,0.3);
+}
+.active{
+    background-color: goldenrod;
+}
+main{
+    margin-top: 55px;
+}
+.dropdown{
+    margin-top: 55px;
+    position: relative;
+    display: inline-block;
+}
+.dropdown:hover .dropdown-btn{
+    background-color: darkgoldenrod;
+}
+.dropdown-btn{
+    background-color: coral;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: burlywood;
+    min-width: 160px;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.3);
+}
+.dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: darkcyan;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+/* Formulario */
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit]{
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.box{
+    background-color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
+}
+textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.fondo{
+    height: 400px;
+    background: green url(http://placekitten.com/200/300) no-repeat left top fixed;
+    background-size: cover;
+}
