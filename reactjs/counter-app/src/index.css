@@ -1,0 +1,12 @@
+html, body{
+  color: white;
+  background-color: brown;
+  font-family: "Helvetica Neue",Helvetica, Arial;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+button{
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  padding: 1rem;
+}
